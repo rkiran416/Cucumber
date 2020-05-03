@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#Simple login without parameters"
+          },
+          {
+            "line": 5,
+            "value": "#Scenario: Log-In with valid username and password"
+          },
+          {
+            "line": 6,
+            "value": "#Given Open Browser"
+          },
+          {
+            "line": 7,
+            "value": "#When Enter the url \"http://practice.automationtesting.in/\""
+          },
+          {
+            "line": 8,
+            "value": "#And Click on My Account Menu"
+          },
+          {
+            "line": 9,
+            "value": "#And Enter registered Username and Password"
+          },
+          {
+            "line": 10,
+            "value": "#And Click on Login button"
+          },
+          {
+            "line": 11,
+            "value": "#Then User must be logged in successfully"
+          },
+          {
+            "line": 13,
+            "value": "#Simple login without parameters"
+          },
+          {
+            "line": 14,
+            "value": "#Scenario: Log-In with valid username and password"
+          },
+          {
+            "line": 15,
+            "value": "#Given Open Browser"
+          },
+          {
+            "line": 16,
+            "value": "#When Enter the url \"http://practice.automationtesting.in/\""
+          },
+          {
+            "line": 17,
+            "value": "#And Click on My Account Menu"
+          },
+          {
+            "line": 18,
+            "value": "#And Enter registered Username \"rkiran33@yahoo.co.in\" and Password \"Jsm@3343\""
+          },
+          {
+            "line": 19,
+            "value": "#And Click on Login button"
+          },
+          {
+            "line": 20,
+            "value": "#Then User must be logged in successfully"
+          },
+          {
+            "line": 22,
+            "value": "#Simple login without parameters"
+          },
+          {
+            "line": 23,
+            "value": "#Scenario Outline: Log-In with valid username and password"
+          },
+          {
+            "line": 24,
+            "value": "#Given Open Browser"
+          },
+          {
+            "line": 25,
+            "value": "#When Enter the url \"http://practice.automationtesting.in/\""
+          },
+          {
+            "line": 26,
+            "value": "#And Click on My Account Menu"
+          },
+          {
+            "line": 27,
+            "value": "#And Enter registered Username \"\u003cusername\u003e\" and Password \"\u003cpassword\u003e\""
+          },
+          {
+            "line": 28,
+            "value": "#And Click on Login button"
+          },
+          {
+            "line": 29,
+            "value": "#Then Verify Login"
+          },
+          {
+            "line": 31,
+            "value": "#Examples:"
+          },
+          {
+            "line": 32,
+            "value": "# |\tusername\t\t\t\t|\tpassword\t|"
+          },
+          {
+            "line": 33,
+            "value": "# |\trkiran33@yahoo.co.in\t|\tjsm3343\t\t|"
+          },
+          {
+            "line": 34,
+            "value": "# |\trkiran33@yahoo.co.in\t|\tJsm@3343\t|"
+          },
+          {
+            "line": 35,
+            "value": "# |\trkiran33@yahoo.co.in\t|\tjsm33432\t|"
+          },
+          {
+            "line": 37,
+            "value": "#Scenario: Log-In with valid username and password"
+          },
+          {
+            "line": 38,
+            "value": "#Given Open Browser"
+          },
+          {
+            "line": 39,
+            "value": "#When Enter the url \"http://practice.automationtesting.in/\""
+          },
+          {
+            "line": 40,
+            "value": "#And Click on My Account Menu"
+          },
+          {
+            "line": 41,
+            "value": "#And Enter registered Username and Password"
+          },
+          {
+            "line": 42,
+            "value": "#|\trkiran33@yahoo.co.in\t|\tJsm@3343\t|"
+          },
+          {
+            "line": 43,
+            "value": "#And Click on Login button"
+          },
+          {
+            "line": 44,
+            "value": "#Then User must be logged in successfully"
+          }
+        ],
+        "line": 46,
+        "name": "Log-In with valid username and password",
+        "description": "",
+        "id": "my-account-login;log-in-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4692652500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Open Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5205981200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Enter the url \"http://practice.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://practice.automationtesting.in/",
+                  "offset": 15
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6625684400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click on My Account Menu",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.click_on_My_Account_Menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371938100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Enter registered Username and Password",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.enter_registered_Username_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 51
+              },
+              {
+                "cells": [
+                  "rkiran33@yahoo.co.in",
+                  "Jsm@3343"
+                ],
+                "line": 52
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6207083800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on Login button",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 909499900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User must be logged in successfully",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.user_must_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Account Login",
+    "description": "Description: Testing the account login feature",
+    "id": "my-account-login",
+    "keyword": "Feature",
+    "uri": "MyAccount-Login.feature"
+  }
+]
